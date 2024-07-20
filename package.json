@@ -1,0 +1,61 @@
+{
+  "name": "wyn-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write .",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/material": "^5.14.15",
+    "@reduxjs/toolkit": "^2.0.1",
+    "bootstrap": "5.3.2",
+    "next": "13.5.4",
+    "next-auth": "^4.24.3",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-redux": "^9.0.4",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^3.1.0",
+    "sass": "^1.69.5",
+    "swiper": "^11.0.3"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.4.6",
+    "@storybook/addon-interactions": "^7.4.6",
+    "@storybook/addon-links": "^7.4.6",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.4.6",
+    "@storybook/nextjs": "^7.4.6",
+    "@storybook/react": "^7.4.6",
+    "@storybook/testing-library": "^0.2.2",
+    "@types/node": "^20.8.10",
+    "@types/react-dom": "^18.2.14",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^14.0.1",
+    "eslint-plugin-storybook": "^0.6.15",
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "storybook": "^7.4.6",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "resolutions": {
+    "@storybook/react-docgen-typescript-plugin": "1.0.6--canary.9.cd77847.0"
+  }
+}
